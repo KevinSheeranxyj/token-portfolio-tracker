@@ -10,6 +10,14 @@ A lightweight Rust-powered API service that tracks crypto wallet balances and po
 - Fast, async Rust backend using Axum and Tokio
 - Modular design (easy to extend to Ethereum, SPL, ERC20, etc.)
 
+## Future roadmap
+
+-	Add ERC20 token support via ethers-rs + Alchemy
+-	Track SPL token balances on Solana
+-	Add frontend with Tauri or React
+-	Integrate Redis for caching prices
+-	Multi-currency support (USDT, EUR, etc.)
+-	Token icon, symbol, 24h price change
 
 ## Tech Stack
 | Layer       | Tech Used                             |
